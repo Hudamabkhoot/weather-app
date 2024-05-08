@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { CurrentWeather } from "../interfaces/weather.interfaces";
 
-const WeatherApiKey = import.meta.env.VITE_WEATHER_API_KEY
-const GeoApiKey = import.meta.env.VITE_GEOAPIFY_API_KEY
+const WeatherApiKey = process.env.VITE_WEATHER_API_KEY;
+const GeoApiKey = process.env.VITE_GEOAPIFY_API_KEY;
 
 export async function getWeatherByCityName(cityName: string): Promise<CurrentWeather> {
   try {
