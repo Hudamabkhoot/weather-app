@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+![Weather App](https://github.com/Hudamabkhoot/weather-app/assets/100641349/efaf526a-d477-4377-bc1c-31931fd70335)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#  Weather App.
 
-Currently, two official plugins are available:
+- The Weather App is a web application that provides users with real-time weather information for various locations. With a user-friendly interface and intuitive design, users can easily access current weather conditions, hourly forecasts, and daily forecasts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo.
 
-## Expanding the ESLint configuration
+**live demo: [Here]()**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Search Functionality: Search for weather information for specific cities or locations.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Current Weather Display: View the current weather conditions for any location, including temperature, weather icon, and description.
+
+- User Location: Your current location is automatically saved and will always be displayed. 
+
+- Saved Cities: Save your favorite cities for quick access to their weather information. Clicking on the save city button adds the city to your list of saved cities. You can then click on the saved city to display the weather information for that specific city.
+
+- Hourly Forecast: Get hourly weather forecasts to plan your day effectively.
+
+- Daily Forecast: Access detailed daily forecasts to stay prepared for changing weather conditions.
+
+- Weather Conditions: Get detailed weather conditions for any city, including wind direction, humidity, feels like temperature, UV index, sunset and sunrise times, visibility, moon phase, dew point, pressure, and more.
+
+
+## Built With:
+
+- React.js
+- OpenWeather API
+- Redux
+- Axios
+- Framer Motion
+- Semantic HTML5 Markup
+- CSS Modules
+- React Hot Toast
+- Responsive Design with CSS Flexbox
