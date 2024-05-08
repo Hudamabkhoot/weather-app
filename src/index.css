@@ -1,0 +1,87 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#root {
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-weight: 500;
+  color: none;
+  text-decoration: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+body  {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.87);
+  background: #87CEEB;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  align-items: flex-end;
+}
+
+.main-container {
+ margin-top: 2em;
+ padding: 1em;
+ max-width: 650px;
+ margin: 0 auto;
+}
+
+.icon {
+  width: 35px;
+}
+
+.no-data, .get-started {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.get-started {
+  color: rgba(0, 0, 0, 0.7);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+}
+
+.start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.locationIcon {
+  width: 20px;
+  }
+  

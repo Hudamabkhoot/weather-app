@@ -1,0 +1,52 @@
+.weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2em 0;
+    margin-bottom: 1em;
+    gap: 15px;
+}
+
+.weather h3 {
+    font-size: 1.3rem;
+}
+
+.weatherTemp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weatherTemp h1 {
+    font-size: 65px;
+    font-weight: 400;
+}
+
+.celsius {
+   font-size: 2.8rem;
+}
+
+.weatherLowHigh {
+    display: flex;
+    gap: 10px;
+}
+
+.maxMinContainer {
+    display: flex;
+}
+
+.maxMin {
+    margin-right: 0.3em;
+    font-weight: bold;
+}
+
+.addIcon {
+    width: 20px;
+    margin-left: 1.5em;
+}
+
+.addIconBtn {
+    background: none;
+}
+

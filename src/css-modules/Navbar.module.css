@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 0 1em;
+    background-color: #252c31; 
+  }
+  
+  .logo img {
+    height: 85px; 
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  .button {
+    padding: 0.5em 1em;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 0.7); 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #87CEEB;;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 500;
+  }
