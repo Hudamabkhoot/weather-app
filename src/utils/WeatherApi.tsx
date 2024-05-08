@@ -7,7 +7,7 @@ const GeoApiKey = import.meta.env.VITE_GEOAPIFY_API_KEY;
 export async function getWeatherByCityName(cityName: string): Promise<CurrentWeather> {
   try {
       const response = await axios.get(
-          `http://api.weatherapi.com/v1/forecast.json?key=${WeatherApiKey}&q=${cityName}&days=7`
+          `https://api.weatherapi.com/v1/forecast.json?key=${WeatherApiKey}&q=${cityName}&days=7`
       );
 
       if (!response.data) {
