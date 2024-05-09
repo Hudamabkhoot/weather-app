@@ -14,7 +14,7 @@
   margin: 0 0.5rem;
   max-width: 350px;
   width: 100%;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -56,13 +56,13 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  padding: 0.5em 0.6rem;
+  padding: 0.6em 0.6rem;
 }
 
 
 @media screen and (max-width: 400px) {
   .search input[type="text"] {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .locationIcon {
